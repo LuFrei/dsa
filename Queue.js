@@ -15,6 +15,7 @@
 // 4. Write a method to getTail() of the queue
 
 // 4. Write a method to enqueue() a node to the head of the queue
+// Create a new instance of Node with some data
 // The new node is the head of the queue
 // Set the old head to the .next propery of the new head
 // Increment the length of the queue
