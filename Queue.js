@@ -1,5 +1,5 @@
 // Follow the steps to create a queue
-// Queues are first in, first out - like a line at a grocery store
+// Queues are first in, first out - like a line at a british grocery store
 // Adding or removing items from a queue should *not* require traversing the queue
 
 // 1. Create Node class
