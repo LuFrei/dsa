@@ -14,13 +14,13 @@
 
 // 4. Write a method to getTail() of the queue
 
-// 4. Write a method to add() a node to the head of the queue
+// 4. Write a method to enqueue() a node to the head of the queue
 // The new node is the head of the queue
 // Set the old head to the .next propery of the new head
 // Increment the length of the queue
 // Edge case - what is different if the queue is empty?
 
-// 5. Write a method to remove() a node from the tail the queue
+// 5. Write a method to dequeue() a node from the tail the queue
 // Remove the node from the tail of the queue (first in first out)
 // Set the old tail's .prev node to the new tail
 // Set the new tail's .next node to be the null
