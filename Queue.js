@@ -14,18 +14,20 @@
 
 // 4. Write a method to getTail() of the queue
 
-// 4. Write a method to enqueue() a node to the head of the queue
-// Create a new instance of Node with some data
-// The new node is the head of the queue
-// Set the old head to the .next propery of the new head
+// 4. Write a method to enqueue(e) a node to the head of the queue
+// enqueue() takes one argument - an instance of Node
+// The new node is the tail of the queue
+// Store the new tail as the old tails' .next property
 // Increment the length of the queue
 // Edge case - what is different if the queue is empty?
 
-// 5. Write a method to dequeue() a node from the tail the queue
-// Remove the node from the tail of the queue (first in first out)
-// Set the old tail's .prev node to the new tail
-// Set the new tail's .next node to be the null
+// 5. Write a method to dequeue() a node from the head the queue
+// Remove the node from the head of the queue (first in first out)
+// Store the old head's .next node to the new head
+// Set the new head's .prev node to be null
 // Decrement the length of the queue
+// Edge case - what is different if the queue is now empty?
+// Edge case - what is different if the queue is now length 1?
 
 // 6. Write a method to print() the data in each node of the queue
 // Traverse the queue, console.log() each node's .data property

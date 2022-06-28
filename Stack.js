@@ -12,7 +12,8 @@
 
 // 3. Write a method to peek() at the top of the stack
 
-// 4. Write a method to push() a node onto the top of the stack
+// 4. Write a method to push(e) a node onto the top of the stack
+// push() takes one argument - an instance of Node
 // Create a new instance of Node with some data
 // The new node is the head of the stack
 // Set the old head to the .next propery of the new head
