@@ -14,7 +14,7 @@
 
 // 4. Write a method to getTail() of the queue
 
-// 4. Write a method to enqueue(e) a node to the head of the queue
+// 4. Write a method to enqueue(e) a node to the tail of the queue
 // enqueue() takes one argument - an instance of Node
 // The new node is the tail of the queue
 // Store the new tail as the old tails' .next property
